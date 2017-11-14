@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 200px;
+  font-style: strong;
+  text-shadow: 0px -4px #d3d3d3;
+  color: white;
+}
+
+body {
+  background-image: url("https://www.unbox.id/wp-content/uploads/2017/09/Spectrum-Singapore-Paul-Reiffer-Professional-Cityscape-Skyline-Photographer-View-Photography.jpg");
+  overflow-x: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.optionBar {
+  margin: auto;
+}
+
+.optionLocation {
+  background-color: white;
+  min-width: 200px;
+  max-width: 800px;
+  height: 120px;
+  margin: 100px auto;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 200px;
+}
+
+.locationImage {
+  margin: 30px;
+  display: block;
+}
+
+#locationInput {
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  min-width: 200px;
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}

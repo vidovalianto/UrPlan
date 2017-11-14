@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://www.unbox.id/wp-content/uploads/2017/09/Spectrum-Singapore-Paul-Reiffer-Professional-Cityscape-Skyline-Photographer-View-Photography.jpg");
+  overflow-x: hidden;
+}
+
+.optionBar {
+  margin: auto;
+}
+
+.informationPanel {
+  margin: auto;
+}
+
+#waterInformation {
+  margin-top: 100px;
+}

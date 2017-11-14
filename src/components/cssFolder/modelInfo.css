@@ -1,0 +1,19 @@
+.informationCard {
+  min-width: 40rem;
+  max-width: 60rem;
+  height: 18rem;
+  display: block;
+  margin: 5px auto;
+}
+
+.titlePart {
+  font-size: 29px;
+  text-align: right;
+}
+
+#img {
+  margin-top: 40px;
+  padding: 5px;
+  max-height: 300px;
+  max-width: 250px;
+}
