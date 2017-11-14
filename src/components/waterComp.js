@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../components/cssFolder/waterComp.css";
 
+import TitleBar from "./titleBar"
 import BottomBar from "./bottomBar";
 
 //model
@@ -11,9 +12,7 @@ class Water extends Component {
     return (
       <div className="waterWallpaper">
         <div className="container App">
-          <h1 className="display-1 title">
-            <b>UrPlan</b>
-          </h1>
+          <TitleBar />
           <div className="row">
             <div className="col-md-12 informationPanel">
               <WaterModel img="http://www.uiwater.com/images/default-source/utilities-basic/buisness-units/florida/waterdorp.png?sfvrsn=2" main="AVAILABILITY" firstsub="IRIGATION" secondsub="CLEAN"> </WaterModel>

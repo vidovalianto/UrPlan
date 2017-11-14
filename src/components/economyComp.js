@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../components/cssFolder/economyComp.css";
 
+import TitleBar from "./titleBar"
 import BottomBar from "./bottomBar";
 
 //model
@@ -11,9 +12,7 @@ class Economy extends Component {
     return (
       <div className="economyWallpaper">
         <div className="container App">
-          <h1 className="display-1 title">
-            <b>UrPlan</b>
-          </h1>
+          <TitleBar />
           <div className="row">
             <div className="col-md-12 informationPanel">
               <EconomyModel img="http://cdn.essay.ws/wp-content/uploads/2015/11/Ethiopian-Economy-part-2.jpg" main="Stock" firstsub="Local Money Value" secondsub="Average Salary" />
