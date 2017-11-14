@@ -1,6 +1,9 @@
 body {
-  background-image: url("https://www.unbox.id/wp-content/uploads/2017/09/Spectrum-Singapore-Paul-Reiffer-Professional-Cityscape-Skyline-Photographer-View-Photography.jpg");
   overflow-x: hidden;
+}
+
+.economyWallpaper{
+  background-image: url("../../wallpaper/Economy.jpg");
 }
 
 .optionBar {

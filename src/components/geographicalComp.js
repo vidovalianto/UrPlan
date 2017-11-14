@@ -4,27 +4,29 @@ import "../components/cssFolder/geographicalComp.css";
 import BottomBar from "./bottomBar";
 
 //model
-import geographicalModel from "./Model/modelInfo";
+import GeographicalModel from "./Model/modelInfo";
 
-class GeographicalModel extends Component {
+class Geographical extends Component {
   render() {
     return (
-      <div className="container App">
-        <h1 className="display-1 title">
-          <b>UrPlan</b>
-        </h1>
-        <div className="row">
-          <div className="col-md-12 informationPanel">
-            <geographicalModel img="http://www.uiwater.com/images/default-source/utilities-basic/buisness-units/florida/waterdorp.png?sfvrsn=2" main="AVAILABILITY" firstsub="IRIGATION" secondsub="CLEAN" />
+      <div className="waterWallpaper">
+        <div className="container App">
+          <h1 className="display-1 title">
+            <b>UrPlan</b>
+          </h1>
+          <div className="row">
+            <div className="col-md-12 informationPanel">
+              <GeographicalModel img="http://pngimg.com/uploads/mountain/mountain_PNG20.png" main="Land" firstsub="Mountain" secondsub="Fields" />
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <BottomBar id="geographicalInformation" />
-        </div>
+          <div className="row">
+            <BottomBar id="waterInformation" />
+          </div>
 
+        </div>
       </div>
     );
   }
 }
 
-export default GeographicalModel;
+export default Geographical;

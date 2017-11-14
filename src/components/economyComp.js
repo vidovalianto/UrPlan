@@ -9,19 +9,21 @@ import EconomyModel from "./Model/modelInfo";
 class Economy extends Component {
   render() {
     return (
-      <div className="container App">
-        <h1 className="display-1 title">
-          <b>UrPlan</b>
-        </h1>
-        <div className="row">
-          <div className="col-md-12 informationPanel">
-            <EconomyModel img="http://www.uiwater.com/images/default-source/utilities-basic/buisness-units/florida/waterdorp.png?sfvrsn=2" main="AVAILABILITY" firstsub="IRIGATION" secondsub="CLEAN"/>
+      <div className="economyWallpaper">
+        <div className="container App">
+          <h1 className="display-1 title">
+            <b>UrPlan</b>
+          </h1>
+          <div className="row">
+            <div className="col-md-12 informationPanel">
+              <EconomyModel img="http://cdn.essay.ws/wp-content/uploads/2015/11/Ethiopian-Economy-part-2.jpg" main="Stock" firstsub="Local Money Value" secondsub="Average Salary" />
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <BottomBar id="EconomyInformation" />
-        </div>
+          <div className="row">
+            <BottomBar id="EconomyInformation" />
+          </div>
 
+        </div>
       </div>
     );
   }
