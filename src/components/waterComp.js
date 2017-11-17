@@ -15,7 +15,7 @@ class Water extends Component {
           <TitleBar />
           <div className="row">
             <div className="col-md-12 informationPanel">
-              <WaterModel img="http://www.uiwater.com/images/default-source/utilities-basic/buisness-units/florida/waterdorp.png?sfvrsn=2" main="AVAILABILITY" firstsub="IRIGATION" secondsub="CLEAN"> </WaterModel>
+              <WaterModel img="https://images.vexels.com/media/users/3/129023/isolated/preview/176d8d973b85fc8a4c67ec02ba89f7e0-water-drop-tap-icon-by-vexels.png" main="AVAILABILITY" firstsub="IRIGATION" secondsub="CLEAN"> </WaterModel>
             </div>
           </div>
           <div className="row">

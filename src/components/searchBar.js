@@ -17,7 +17,7 @@ class SearchBar extends Component {
               type="text"
               className="form-control"
               id="locationInput"
-              onChange={event => this.setState({ locationForm: event.target.value })}
+              // onChange={event => TitleBar.changeTitleBar(event.target.value) }
               placeholder="Location"
             />
           </div>

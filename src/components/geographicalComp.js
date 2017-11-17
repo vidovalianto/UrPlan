@@ -15,7 +15,7 @@ class Geographical extends Component {
           <TitleBar />
           <div className="row">
             <div className="col-md-12 informationPanel">
-              <GeographicalModel img="http://pngimg.com/uploads/mountain/mountain_PNG20.png" main="Land" firstsub="Mountain" secondsub="Fields" />
+              <GeographicalModel img="https://www.shareicon.net/download/2016/11/09/851573_global_512x512.png" main="Land" firstsub="Mountain" secondsub="Fields" />
             </div>
           </div>
           <div className="row">

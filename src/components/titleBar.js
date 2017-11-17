@@ -7,6 +7,11 @@ class titleBar extends Component {
   constructor(props) {
     super(props);
     this.state = { locationForm: 'UrPlan' };
+    this.changeTitleBar = this.changeTitleBar.bind(this);
+  }
+
+  changeTitleBar(newTitle) {
+    this.setState({ locationForm: newTitle });
   }
 
   render() {

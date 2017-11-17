@@ -15,7 +15,7 @@ class Economy extends Component {
           <TitleBar />
           <div className="row">
             <div className="col-md-12 informationPanel">
-              <EconomyModel img="http://cdn.essay.ws/wp-content/uploads/2015/11/Ethiopian-Economy-part-2.jpg" main="Stock" firstsub="Local Money Value" secondsub="Average Salary" />
+              <EconomyModel img="https://www.shareicon.net/download/2016/10/18/846213_book.svg" main="Stock" firstsub="Local Money Value" secondsub="Average Salary" />
             </div>
           </div>
           <div className="row">
